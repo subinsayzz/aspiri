@@ -415,6 +415,7 @@ pre code {
   border: none;
   text-decoration: none;
   position: relative;
+  z-index: 100;
 }
 
 .btn:focus-visible {
@@ -877,6 +878,7 @@ select.form-control {
   flex: 1;
   overflow-y: auto;
   position: relative;
+  z-index: 100;
 }
 
 /* Slides */
@@ -1316,6 +1318,7 @@ select.form-control {
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.08), rgba(21, 128, 61, 0.05));
   border-color: rgba(34, 197, 94, 0.3);
   position: relative;
+  z-index: 100;
 }
 
 .package-card-gradient.featured::before {
@@ -1457,6 +1460,7 @@ select.form-control {
   border: 1px solid rgba(220, 38, 38, 0.1);
   text-align: center;
   position: relative;
+  z-index: 100;
   transition: all var(--duration-normal) var(--ease-standard);
   box-shadow: 
     0 4px 6px -1px rgba(220, 38, 38, 0.05),
@@ -1520,6 +1524,7 @@ select.form-control {
   justify-content: center;
   margin: var(--space-32) 0;
   position: relative;
+  z-index: 100;
 }
 
 .divider-line {
@@ -1562,6 +1567,7 @@ select.form-control {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(220, 38, 38, 0.08);
   position: relative;
+  z-index: 100;
   transition: all var(--duration-normal) var(--ease-standard);
   box-shadow: 
     0 2px 4px rgba(0, 0, 0, 0.02),
@@ -1602,6 +1608,7 @@ select.form-control {
     0 6px 20px rgba(220, 38, 38, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
   position: relative;
+  z-index: 100;
   flex-shrink: 0;
 }
 
@@ -1639,6 +1646,7 @@ select.form-control {
   line-height: 1.6;
   color: var(--color-text);
   position: relative;
+  z-index: 100;
   padding-left: var(--space-24);
 }
 
@@ -1770,6 +1778,7 @@ select.form-control {
   text-align: center;
   transition: all var(--duration-normal) var(--ease-standard);
   position: relative;
+  z-index: 100;
 }
 
 .pricing-card:hover {
@@ -1861,6 +1870,7 @@ select.form-control {
   padding: var(--space-2);
   box-shadow: var(--shadow-lg);
   position: relative;
+  z-index: 100;
   overflow: hidden;
 }
 
@@ -1885,7 +1895,8 @@ select.form-control {
   border-radius: var(--radius-md);
   padding: var(--space-32);
   position: relative;
-  z-index: 10;
+  z-index: 100;
+  z-index: 5;
 }
 
 .bonus-header {
@@ -2138,6 +2149,7 @@ select.form-control {
   border-radius: var(--radius-full);
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--color-border);
+  z-index: 2000;
 }
 
 .slide-indicator {
@@ -2157,7 +2169,7 @@ select.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .modal.hidden {
@@ -2171,6 +2183,7 @@ select.form-control {
   max-width: 500px;
   width: 90%;
   position: relative;
+  z-index: 100;
   box-shadow: var(--shadow-lg);
 }
 
@@ -2390,6 +2403,7 @@ select.form-control {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(220, 38, 38, 0.08);
   position: relative;
+  z-index: 100;
   transition: all var(--duration-normal) var(--ease-standard);
   box-shadow: 
     0 4px 6px -1px rgba(220, 38, 38, 0.1),
@@ -2440,6 +2454,7 @@ select.form-control {
   justify-content: center;
   margin: var(--space-32) 0;
   position: relative;
+  z-index: 100;
 }
 
 .divider-line {
@@ -2482,6 +2497,7 @@ select.form-control {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(220, 38, 38, 0.08);
   position: relative;
+  z-index: 100;
   transition: all var(--duration-normal) var(--ease-standard);
   box-shadow: 
     0 2px 4px rgba(0, 0, 0, 0.02),
@@ -2522,6 +2538,7 @@ select.form-control {
     0 6px 20px rgba(220, 38, 38, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
   position: relative;
+  z-index: 100;
   flex-shrink: 0;
 }
 
@@ -2559,6 +2576,7 @@ select.form-control {
   line-height: 1.6;
   color: var(--color-text);
   position: relative;
+  z-index: 100;
   padding-left: var(--space-24);
 }
 
