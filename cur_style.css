@@ -580,6 +580,17 @@ select.form-control {
   line-height: var(--line-height-normal);
 }
 
+/* Step Cards */
+.step-card {
+  background: linear-gradient(135deg, var(--color-bg-1), var(--color-bg-2));
+  border: 1px solid var(--color-border);
+}
+
+.step-card h3 {
+  color: #DC2626;
+  margin-bottom: var(--space-16);
+}
+
 /* Status indicators - simplified with CSS variables */
 .status {
   display: inline-flex;
