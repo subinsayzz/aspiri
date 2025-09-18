@@ -1885,7 +1885,7 @@ select.form-control {
   border-radius: var(--radius-md);
   padding: var(--space-32);
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 .bonus-header {
@@ -2248,6 +2248,7 @@ select.form-control {
     right: var(--space-16);
     left: var(--space-16);
     justify-content: center;
+    z-index: 100;
   }
   
   .launchpad-features-grid {
