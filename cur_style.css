@@ -367,6 +367,15 @@ a:hover {
   color: var(--color-primary-hover);
 }
 
+/* Ensure buttons with btn class don't change text color on hover */
+a.btn:hover {
+  color: inherit;
+}
+
+a.btn--primary:hover {
+  color: white;
+}
+
 code,
 pre {
   font-family: var(--font-family-mono);
@@ -567,6 +576,11 @@ select.form-control {
   margin-bottom: var(--space-24);
   line-height: var(--line-height-normal);
   text-align: center;
+}
+
+/* Left align intro text specifically for requirements page */
+#slide-2 .intro-text {
+  text-align: left;
 }
 
 /* Section description */
@@ -1512,10 +1526,66 @@ select.form-control {
 
 /* Pricing Table */
 .pricing-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-24);
+  margin-bottom: var(--space-32);
+}
+
+.pricing-card {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-24);
+  text-align: center;
+  transition: all var(--duration-normal) var(--ease-standard);
+  position: relative;
+}
+
+.pricing-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.pricing-card.featured {
+  border-color: #DC2626;
+  background: linear-gradient(135deg, var(--color-bg-1), var(--color-bg-2));
+}
+
+.pricing-card.featured::before {
+  content: 'RECOMMENDED';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #DC2626;
+  color: white;
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.pricing-card h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-16);
+  color: var(--color-text);
+}
+
+.price {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: #DC2626;
+  margin-bottom: var(--space-16);
+}
+
+/* Pricing Table for Slide 13 */
+.pricing-table table {
   margin-top: var(--space-32);
   overflow-x: auto;
 }
 
+/* Table Pricing Table */
 .pricing-table table {
   width: 100%;
   border-collapse: collapse;
@@ -1712,6 +1782,7 @@ select.form-control {
 
 .btn--primary:hover {
   background-color: #B91C1C;
+  color: white;
 }
 
 .btn--primary:active {

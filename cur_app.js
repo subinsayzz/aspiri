@@ -349,7 +349,7 @@ class PresentationDashboard {
             </ul>
             
             <div style="text-align: center;">
-                <a href="${study.url}" target="_blank" class="btn btn--primary" style="display: inline-block; margin-right: 12px; text-decoration: none;">
+                <a href="${study.url}" target="_blank" class="btn btn--primary" style="display: inline-block; margin-right: 12px; text-decoration: none; color: white !important;">
                     Visit Website
                 </a>
                 <button class="btn btn--outline modal-close-btn">
@@ -424,8 +424,8 @@ class PresentationDashboard {
                 
                 <div style="background: var(--color-bg-1); padding: 20px; border-radius: 8px; margin: 24px 0;">
                     <h4 style="margin-bottom: 12px; color: #DC2626;">Contact Information:</h4>
-                    <p style="margin: 8px 0; font-size: 14px;"><strong>Email:</strong> hello@sociallypivot.com</p>
-                    <p style="margin: 8px 0; font-size: 14px;"><strong>Phone:</strong> +91 98765 43210</p>
+                    <p style="margin: 8px 0; font-size: 14px;"><strong>Email:</strong> subinsayzz4u@gmail.com</p>
+                    <p style="margin: 8px 0; font-size: 14px;"><strong>Phone:</strong> +91 98187 13787</p>
                     <p style="margin: 8px 0; font-size: 14px;"><strong>Response Time:</strong> Within 4 hours</p>
                 </div>
                 
